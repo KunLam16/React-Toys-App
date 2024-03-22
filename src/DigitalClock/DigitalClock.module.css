@@ -1,0 +1,56 @@
+ @import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+                
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #272343;
+    margin: 10px;
+    border-radius: 20px;
+}
+.display{
+    
+    color: #ffe9e3;
+    
+    font-family: 'Unbounded', sans-serif;
+    text-align: center;
+    
+}
+.h1{
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.h1:hover{
+    text-shadow: 0 0 20px #ffe9e3;
+}
+.clock{
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 100px;
+    color: #ffe9e3;
+    text-align: center;
+    margin: 10px;
+}
+@media (max-width: 500px){
+    .h1{
+        font-size: 30px;
+    }
+    .clock{
+        font-size: 60px;
+    }
+}
+@media(max-width: 250px){
+    .clock{
+        font-size: 40px;
+    }
+ 
+}
+@media (max-width: 180px){
+    .container{
+        display: none;
+    }
+    
+}

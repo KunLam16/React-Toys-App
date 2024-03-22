@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Unbounded:wght@200..900&display=swap');
+
+.container{
+    display: inline-flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 40px;
+    background-color: #385170;
+    border-radius: 30px;
+}
+.h1{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+.display{
+    min-width: 300px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    box-shadow: #000 2px 2px 2px;
+}
+.para{
+    font-family: 'Unbounded', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    
+}
+.input{
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+   
+}
+.label{
+    font-family: 'Unbounded', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+.divc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+@media (max-width: 430px){
+    .display{
+        
+        min-width: 50px;
+    }
+    .h1{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    
+    
+}
+@media (max-width: 180px){
+    .container{
+        display: none;
+    }
+    
+}

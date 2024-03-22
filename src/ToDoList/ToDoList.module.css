@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Unbounded:wght@200..900&display=swap');
+
+
+
+.container{
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid #e0ffcd;
+    background-color: #233142;
+}
+.h1{
+    color: #e0ffcd;
+    font-size: 50px;
+    font-family: "Kdam Thmor Pro", sans-serif;;
+    text-shadow: 2px 2px 4px #000000;
+}
+.btnadd{
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #42b883;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: #2a2438;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.btnadd:hover{
+    background-color: #e0ffcd;
+    color: #42b883;
+    box-shadow: 0 0 35px #42b883;
+}
+
+.btndel{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    border-radius: 20px;
+    background-color: #a2c11c;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.3s linear;
+}
+.btndel:hover{
+    background-color: #e0ffcd;
+    color: #a2c11c;
+    box-shadow: 0 0 20px #a2c11c;
+}
+
+.btnup{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    border-radius: 20px;
+    background-color: #f9d56e;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.3s linear;
+}
+.btnup:hover{
+    background-color: #e0ffcd;
+    color: #f9d56e;
+    box-shadow: 0 0 35px #f9d56e;
+}
+.btndown{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    border-radius: 20px;
+    background-color: #f9d56e;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.3s linear;
+}
+.btndown:hover{
+    background-color: #e0ffcd;
+    color: #f9d56e;
+    box-shadow: 0 0 35px #f9d56e;
+}
+input[type="text"]{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    border-radius: 20px;
+    border: 2px solid #e0ffcd;
+    background-color: #233142;
+    color: #e0ffcd;
+    transition: 0.3s linear;
+}
+.ol{
+    padding: 0;
+}
+.li{
+    list-style: none;
+    font-size: 40px;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 900;
+    color: #e0ffcd;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #e0ffcd;
+    background-color: #00204a;
+    transition: 0.3s linear;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+    
+}
+@media(max-width: 380px){
+   .container{
+    display: none;
+   }
+}
+@media(max-width: 485px){
+    input[type="text"]{
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px;
+       
+    }
+    .btnadd{
+        margin: 10px;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+ }
+ @media(max-width: 470px){
+    .btnup{
+        margin: 10px;
+        padding: 10px;
+        font-size: 15px;
+       
+    }
+    .btndown{
+        margin: 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .btndel{
+        margin: 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .text{
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+ }
+ @media(max-width:550px){
+    .text{
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+
+ }
+    .btnup{
+    font-size: 20px;
+   
+}
+    .btndown{
+    font-size: 20px;
+}
+    .btndel{
+    font-size: 20px;
+}
+}
+@media (max-width: 402px){
+    .btnup{
+        font-size: 16px;
+       
+    }
+        .btndown{
+        font-size: 16px;
+    }
+        .btndel{
+        font-size: 16px;
+    }
+    
+}
